@@ -17,7 +17,7 @@ public class DateFormat
 	        Calendar calendar=Calendar.getInstance();
 	        calendar.set(year,month-1,day);
 	        String date=calendar.getDisplayName(calendar.DAY_OF_WEEK,calendar.LONG,Locale.US).toUpperCase();
-	         return date;
+	        return date;
 	    }
 	    public static void main(String[] args) throws IOException {
 	        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

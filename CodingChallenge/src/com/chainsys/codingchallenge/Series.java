@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 public class Series 
 {
-	public static void main(String []argh)
+	public static void main(String []args)
 	{
 		Scanner in = new Scanner(System.in);
 		int t=in.nextInt();
