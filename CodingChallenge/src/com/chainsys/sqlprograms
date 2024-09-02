@@ -1,0 +1,18 @@
+1.Write a query to create table employees.
+
+create table employees(employee_id int primary key auto_increment,first_name varchar(30),
+last_name varchar(30),email varchar(30) unique,phone_no varchar(10) unique,salary decimal,depart_id int);
+
+2. Write a query to display the names (first_name, last_name) using alias name "First Name", "Last Name".
+
+select first_name As "First Name" ,last_name "Last Name"
+from employees;
+
+3. Write a query to get unique department ID from employee table.
+
+select distinct(depart_id) 
+from employees;
+
+4. Write a query to get all employee details from the employee table order by first name, descending.
+
+select employee_id from employees order by first_name 
